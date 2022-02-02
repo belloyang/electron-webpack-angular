@@ -1,7 +1,8 @@
 // Polyfills
-import 'core-js/es6/reflect';
-import 'core-js/es7/reflect';
-require("zone.js/dist/zone");
+import 'zone.js/dist/zone';
+import "core-js/es/reflect";
+import "core-js/stable/reflect";
+import "core-js/features/reflect";
 
 // Vendor
 import "@angular/platform-browser";
